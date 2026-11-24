@@ -1,0 +1,8 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        { "type": "java", "name": "Run Simulator (GUI)", "request": "launch", "mainClass": "gui.Main" },
+        { "type": "java", "name": "Run Priority only (console)", "request": "launch", "mainClass": "RunPriority", "console": "integratedTerminal" },
+        { "type": "java", "name": "Run all tests", "request": "launch", "mainClass": "AlgorithmTests", "console": "integratedTerminal" }
+    ]
+}
